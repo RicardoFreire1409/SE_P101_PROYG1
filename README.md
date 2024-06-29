@@ -1,6 +1,6 @@
 # SE_P101_PROYG1
 ##Introducción
-###Justificación
+##Justificación
 La música es una forma universal de expresión que trasciende barreras culturales y lingüísticas. Sin embargo, la educación musical puede ser costosa y requiere acceso a múltiples instrumentos para ofrecer una experiencia completa. Un teclado musical interactivo que permite seleccionar el sonido de diferentes instrumentos (piano, guitarra, batería) a través de una aplicación móvil proporciona una solución económica y accesible. Este proyecto no solo facilita el aprendizaje musical, sino que también fomenta la creatividad y la innovación al integrar tecnología moderna en la enseñanza de la música.
 
 ###Descripción
@@ -16,16 +16,16 @@ El teclado contará con los siguientes elementos:
 - Batería recargable: Garantizará la portabilidad.
 - Monitorización de la batería: El porcentaje de la batería del teclado musical se enviará a una plataforma en la nube como Ubidots, donde se visualizará una gráfica con el comportamiento de descarga del dispositivo.
 ##Especificaciones
-###Alimentación
+##Alimentación
 - Batería: Sí, batería recargable de iones de litio.
 - Rango de voltaje de operación: 3.7V a 4.2V (nominal de 3.7V).
 - Cálculos de potencia: Consumo estimado de 1W, batería de 2000mAh proporcionará aproximadamente 4 horas de uso continuo.
-###Tecnología Utilizada
+##Tecnología Utilizada
 - Microcontrolador: ESP32.
 - Comunicación: WiFi (modo AP), capacidad de almacenar al menos dos redes WiFi en memoria EEPROM.
 - Sensores: Pulsadores para las teclas del teclado.
 - Aplicación Móvil: Desarrollada para Android, permite seleccionar el tipo de instrumento.
-###Presupuesto Inicial para Primer Avance
+##Presupuesto Inicial para Primer Avance
 - Microcontrolador ESP32 (2 en caso de fallas): $30
 - Batería de iones de litio 2000mAh: $10
 - Pulsadores: $2
@@ -34,10 +34,10 @@ El teclado contará con los siguientes elementos:
 - Total estimado: $59
   
 ##Objetivos
-###Objetivo General
+##Objetivo General
 Diseñar un teclado musical interactivo con capacidad de simular los diferentes instrumentos musicales (piano, guitarra y batería), que permita la manipulación del instrumento emulado mediante una aplicación móvil y/o teclado físico.
 
-###Objetivos Específicos
+##Objetivos Específicos
 - Integrar un microcontrolador ESP32 a una pantalla OLED para mostrar en pantalla el instrumento seleccionado.
 - Implementar una batería portátil para la alimentación del ESP32, proporcionando facilidad y portabilidad al proyecto.
 - Implementar la funcionalidad de selección de instrumentos (piano, guitarra, batería) y la comunicación en tiempo real con el teclado musical a través de WiFi.
